@@ -84,49 +84,39 @@
             <div class="col">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
+                    <li class="breadcrumb-item"><a href="login.php"><span class="text-uppercase" style="color: var(--color-white);">Iniciar sesion</span></a></li>
+                    <li class="breadcrumb-item"><a href="registrarse.php"><span class="text-light">REGISTRARSE</span></a></li>
                 </ol>
             </div>
         </div>
-        <div class="row" style="width: 100%;margin: auto;">
-            <div class="col">
-                <section id="carousel">
-                    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <div class="bg-light border rounded border-light pulse animated hero-nature carousel-hero jumbotron py-5 px-4">
-                                    <h1 class="hero-title">Hero Nature</h1>
-                                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                                    <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="bg-light border rounded border-light pulse animated hero-photography carousel-hero jumbotron py-5 px-4">
-                                    <h1 class="hero-title">Hero Photography</h1>
-                                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                                    <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item active">
-                                <div class="bg-light border rounded border-light pulse animated hero-technology carousel-hero jumbotron py-5 px-4">
-                                    <h1 class="hero-title">Hero Technology</h1>
-                                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                                    <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
-                            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#carousel-1" data-bs-slide-to="2" class="active"></li>
-                        </ol>
-                    </div>
-                </section>
+        <div class="row" style="width: 80%;margin: auto;border-radius: 10px;">
+            <div class="col text-start col-md-12">
+                <p class="text-light">Registrate</p>
+                <p class="text-light" style="font-size: 11px;margin-top: -19px;">Pago fácil y rápido. Acceso a tu historial. Estado de órdenes</p>
             </div>
         </div>
+        <div class="row" style="width: 80%;margin: auto;">
+            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;width: 80%;" placeholder="Nombres"></div>
+            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Apellidos"></div>
+        </div>
+        <div class="row" style="width: 80%;margin: auto;">
+            <div class="col text-break text-center col-xs-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Correo"></div>
+            <div class="col text-break text-center col-xs-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Teléfono"></div>
+        </div>
+        <div class="row" style="width: 80%;margin: auto;">
+            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Departamento"></div>
+            <div class="col text-break text-center col-sm-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Municipio"></div>
+        </div>
+        <div class="row" style="width: 80%;margin: auto;">
+            <div class="col text-break text-center col-sm-12"><input type="text" class="form-control-lg" style="background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 2%;min-width: 80%;width: 90%;" placeholder="Dirección"></div>
+        </div>
+        <div class="row" style="width: 80%;margin: auto;">
+            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Contraseña"></div>
+            <div class="col text-break text-center col-sm-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Confirmar contraseña"></div>
+        </div><button class="btn btn-primary text-center d-flex d-md-flex d-xxl-flex justify-content-center align-items-center justify-content-md-center align-items-md-center justify-content-xxl-center align-items-xxl-center" type="button" style="width: 200.5px;margin: auto;margin-top: 3%;margin-bottom: 5%;">Registrarse</button>
     </div>
     <footer class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center fixed-bottom" style="background: #2B2D32;height: 10%;">
-        <p class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></p>
+        <small class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

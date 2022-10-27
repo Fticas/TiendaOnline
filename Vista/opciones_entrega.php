@@ -83,40 +83,62 @@
         <div class="row text-center d-inline float-start justify-content-center align-items-center justify-content-xxl-center align-items-xxl-start" style="text-align: center;margin: auto;margin-top: 1%;width: 100%;">
             <div class="col">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
-                    <li class="breadcrumb-item"><a href="login.php"><span class="text-uppercase" style="color: var(--color-white);">Iniciar sesion</span></a></li>
-                    <li class="breadcrumb-item"><a href="registrarse.php"><span class="text-light">REGISTRARSE</span></a></li>
+                    <li class="breadcrumb-item"><a href="home.php"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
+                    <li class="breadcrumb-item"><a href="carrito.php"><span class="text-uppercase" style="color: var(--color-white);">Mi carretilla</span></a></li>
+                    <li class="breadcrumb-item"><a href="#"><span class="text-light">OPCIONES DE ENTREGA</span></a></li>
                 </ol>
             </div>
         </div>
-        <div class="row" style="width: 80%;margin: auto;border-radius: 10px;">
-            <div class="col text-start col-md-12">
-                <p class="text-light">Registrate</p>
-                <p class="text-light" style="font-size: 11px;margin-top: -19px;">Pago fácil y rápido. Acceso a tu historial. Estado de órdenes</p>
+        <div class="row text-center d-inline float-start justify-content-center align-items-center justify-content-xxl-center align-items-xxl-start" style="text-align: center;margin: auto;margin-top: 1%;width: 100%;height: 10%;padding-left: 0px;">
+            <div class="col d-xxl-flex justify-content-xxl-start col-md-5" style="background: linear-gradient(var(--bs-gray-700) 0%, var(--color-white) 56%);border-radius: 6px;padding-top: 10px;padding-bottom: 10px;">
+                <p class="text-start" style="width: 50%;margin: auto;color: var(--color-black);">PAGAR</p>
+                <p class="text-end" style="width: 50%;margin: auto;color: var(--bs-blue);">Opciones de entrega</p>
             </div>
         </div>
-        <div class="row" style="width: 80%;margin: auto;">
-            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;width: 80%;" placeholder="Nombres"></div>
-            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Apellidos"></div>
+        <div class="row" style="margin-bottom: 11%;">
+            <div class="col">
+                <div class="d-sm-flex d-xxl-flex justify-content-sm-start justify-content-xxl-start" style="width: 90%;margin-top: 20px;border-bottom: 2px solid var(--color-white);font-size: 20px;padding-bottom: 15px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-shop" style="color: var(--color-white);font-size: 60px;">
+                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"></path>
+                    </svg>
+                    <div class="form-check" style="margin: auto;margin-left: 40px;"><input class="form-check-input" type="radio" id="formCheck-1" style="font-size: 32px;"><label class="form-check-label" for="formCheck-1" style="color: var(--color-white);margin: auto;font-size: 30px;">Retiro&nbsp; en tienda</label></div>
+                </div>
+                <div class="d-sm-flex d-xxl-flex justify-content-sm-start justify-content-xxl-start" style="width: 90%;margin-top: 20px;border-bottom: 2px solid var(--color-white);font-size: 20px;padding-bottom: 15px;"><i class="fas fa-shipping-fast" style="color: var(--color-white);font-size: 60px;"></i>
+                    <div class="form-check" style="margin: auto;margin-left: 40px;"><input class="form-check-input" type="radio" id="formCheck-2" style="font-size: 32px;"><label class="form-check-label" for="formCheck-2" style="color: var(--color-white);margin: auto;font-size: 30px;">Domicilio</label></div>
+                </div>
+            </div>
+            <div class="col text-start d-xxl-flex align-items-xxl-center col-sm-12 col-md-4">
+                <aside style="width: 80%;margin: auto;background: var(--color-white);border-width: 0px;border-radius: 7px;margin-top: 15px;">
+                    <p class="text-center" style="color: var(--color-black);width: 100%;">RESUMEN</p>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Cálculos</th>
+                                    <th>Suma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td>$1239.67</td>
+                                </tr>
+                                <tr>
+                                    <td>Envío</td>
+                                    <td>$15</td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td>$1254.67</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><button class="btn btn-primary btn-lg text-center d-xxl-flex align-items-xxl-center" type="button" style="margin: auto;background: linear-gradient(var(--bs-gray-800), var(--color-text-grey)), var(--color-grey);border-style: none;margin-bottom: 10px;">Proceder a pagar</button>
+                </aside>
+            </div>
         </div>
-        <div class="row" style="width: 80%;margin: auto;">
-            <div class="col text-break text-center col-xs-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Correo"></div>
-            <div class="col text-break text-center col-xs-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Teléfono"></div>
-        </div>
-        <div class="row" style="width: 80%;margin: auto;">
-            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Departamento"></div>
-            <div class="col text-break text-center col-sm-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Municipio"></div>
-        </div>
-        <div class="row" style="width: 80%;margin: auto;">
-            <div class="col text-break text-center col-sm-12"><input type="text" class="form-control-lg" style="background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 2%;min-width: 80%;width: 90%;" placeholder="Dirección"></div>
-        </div>
-        <div class="row" style="width: 80%;margin: auto;">
-            <div class="col text-break text-center col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Contraseña"></div>
-            <div class="col text-break text-center col-sm-12 col-sm-12 col-md-6"><input type="text" class="form-control-lg" style="width: 80%;background: linear-gradient(var(--color-text-grey) 2%, #212032 57%);color: var(--color-white);border-style: none;margin-top: 3%;" placeholder="Confirmar contraseña"></div>
-        </div><button class="btn btn-primary text-center d-flex d-md-flex d-xxl-flex justify-content-center align-items-center justify-content-md-center align-items-md-center justify-content-xxl-center align-items-xxl-center" type="button" style="width: 200.5px;margin: auto;margin-top: 3%;margin-bottom: 5%;">Registrarse</button>
     </div>
     <footer class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center fixed-bottom" style="background: #2B2D32;height: 10%;">
-        <p class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></p>
+        <small class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

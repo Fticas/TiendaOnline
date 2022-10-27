@@ -84,26 +84,27 @@
             <div class="col">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
-                    <li class="breadcrumb-item"><a href="login.php"><span class="text-uppercase" style="color: var(--color-white);">Iniciar sesion</span></a></li>
+                    <li class="breadcrumb-item"><a href="#"><span class="text-uppercase" style="color: var(--color-white);">Delivery info</span></a></li>
                 </ol>
             </div>
         </div>
-        <div class="row" style="width: 80%;margin: auto;border-radius: 10px;background: linear-gradient(#3940533B 0%, #696E7A70 0%, rgba(105,110,122,0.4392156862745098) 96%);margin-bottom: 20%;">
-            <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6" style="border-right: 1px solid var(--color-grey) ;">
-                <p class="text-light" style="margin-left: 10%;">Iniciar Sesión</p>
-                <p class="text-light" style="font-size: 11px;margin-top: -19px;margin-left: 10%;">Inicia sesión con tu usuario y contraseña</p><input type="text" class="form-control-lg" style="width: 70%;margin-left: 10%;background: linear-gradient(var(--color-text-grey) 0%, rgba(118,129,139,0.760498366013072) 44%, rgba(105,110,122,0.4392156862745098) 80%);color: var(--color-white);border-style: none;border-right-style: none;" placeholder="Usuario" autocomplete="on" required=""><input type="password" class="form-control-lg" style="width: 70%;margin-top: 10px;margin-left: 10%;background: linear-gradient(var(--color-text-grey) 0%, rgba(118,129,139,0.760498366013072) 44%, rgba(105,110,122,0.4392156862745098) 80%);color: var(--color-white);border-style: none;border-right-style: none;" placeholder="Contraseña" required="" autocomplete="off">
-                <div class="d-flex justify-content-xxl-start align-items-xxl-center" style="text-align: center;margin-left: 10%;">
-                    <div class="form-check" style="margin-top: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1" style="color: var(--color-white);">Recordar</label></div><a class="text-light" href="#" style="margin-left: 64px;">Contraseña Olvidada</a>
-                </div><button class="btn btn-primary" type="button" style="width: 50%;border-radius: 8px;margin-top: 5%;margin-left: 10%;font-size: 20px;margin-bottom: 5%;">Inciar Sesión</button>
-            </div>
-            <div class="col text-start col-xs-12 col-sm-12 col-md-12 col-lg-6" style="padding-left: 10%;">
-                <p class="text-light">Registrate</p>
-                <p class="text-light" style="font-size: 11px;margin-top: -19px;">Pago fácil y rápido. Acceso a tu historial. Estado de órdenes</p><a href="registrarse.php"><button class="btn btn-primary" type="button" style="width: 50%;font-size: 20px;margin-top: 11px;border-right-color: var(--color-blue);margin-bottom: 5%;">Registrarse</button></a>
+        <div class="row" style="width: 100%;margin: auto;">
+            <div class="col col-md-12">
+                <h1 class="text-center text-light" style="font-size: 25px;">ENTREGAS Y ENVÍOS</h1>
+                <p class="fw-bold text-start text-light" style="width: 85%;margin: auto;">Innova+ El&nbsp;Salvador cuenta con servicio a domicilio en todo el país, sin embargo estamos sujetos a cobertura de nuestro carrier que se encarga de éste servicio.</p>
+                <p class="fw-bold text-start text-light" style="width: 85%;margin: auto;margin-top: 10px;">Al comprar en nuestra webstore el cliente tiene las siguientes opciones para la entrega de su pedido:<br></p>
+                <ul style="color: var(--color-white);width: 85%;margin: auto;margin-top: 10px;">
+                    <li class="fw-bold" style="font-size: 17px;">“Local Pickup” para recoger en tienda, en la cual el comprador debe seleccionar la sucursal de su preferencia dentro del listado de tiendas disponibles. Una vez procesado el pedido un agente de atención al cliente de Innova+ se pondrá en contacto con el cliente para programar el dia y hora de recolección del pedido.</li>
+                    <li class="fw-bold" style="font-size: 17px;">Envío a Domicilio, en la cual se tomará la información que el usuario ha registrado en nuestro formulario para entregas a domicilio, para programar la entrega a través de nuestro carrier. En caso de existir una discrepancia en la dirección, información complementaria o falta de cobertura, un agente de atención al cliente se pondrá en contacto para solventar dicha situación.</li>
+                </ul>
+                <p class="text-center text-light" style="width: 85%;margin: auto;font-size: 20px;margin-top: 10px;">Todo pedido está sujeto a validación para que sea despachado.<br></p>
+                <h1 class="text-light" style="font-size: 20px;width: 85%;margin: auto;margin-top: 20px;">Costos de Envío<br></h1>
+                <p class="text-light" style="width: 85%;margin: auto;margin-top: 10px;">El envío a domicilio no incluye un cargo adicional, por lo que no se verá reflejada ninguna cantidad monetaria en el detalle de la orden cuando realices tu pedido.<br></p>
             </div>
         </div>
     </div>
     <footer class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center fixed-bottom" style="background: #2B2D32;height: 10%;">
-        <p class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></p>
+        <small class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

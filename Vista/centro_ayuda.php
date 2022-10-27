@@ -42,17 +42,17 @@
                 <div class="col social-links"><span><span style="color: var(--color-black);"><i class="fa fa-phone"></i>&nbsp;503 2222 2222</span>&nbsp; &nbsp; &nbsp;&nbsp;<i class="fa fa-envelope"></i>&nbsp;webstore@innovaplus.com</span>
                     <div class="float-start"></div>
                 </div>
-                <div class="col offset-lg-2 offset-xxl-4 text-end contact-information"><span style="color: var(--color-black);"><a href="nosotros.php" style="color: var(--color-black);">Nosotros</a></span><span style="color: var(--color-black);"><a href="centro_ayuda.php" style="color: var(--color-black);">Centro de Ayuda</a></span><span style="color: var(--color-black);"><a href="delivery.php" style="color: var(--color-black);">Delivery info</a></span>
+                <div class="col offset-lg-2 offset-xxl-4 text-end contact-information" style="color: var(--color-black);"><span style="color: var(--color-black);"><a href="nosotros.php" style="color: var(--color-black);">Nosotros</a></span><span style="color: var(--color-black);"><a href="centro_ayuda.php" style="color: var(--color-black);">Centro de ayuda</a></span><span style="color: var(--color-black);"><a href="delivery.php" style="color: var(--color-black);">Delivery info</a></span>
                     <div class="float-end"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid" style="border-radius: 0px;border-bottom-width: 0px;border-bottom-color: var(--color-black);background: var(--color-white);max-height: 20%;">
-        <div class="row" style="border-bottom-style: none;border-bottom-color: var(--color-black);">
+        <div class="row d-xl-flex align-items-xl-center" style="border-bottom-style: none;border-bottom-color: var(--color-black);">
             <div class="col text-center d-flex justify-content-xl-center col-md-1"><img src="assets/img/LOGO.png" width="100%" style="text-align: center;"></div>
             <div class="col col-md-9" style="margin: auto;"><span><input type="search" class="form-control-lg" style="background: var(--color-white);border-width: 2px;border-color: var(--color-black);width: 100%;" width="" placeholder="Producto a buscar"></span></div>
-            <div class="col d-flex justify-content-sm-center align-items-sm-center justify-content-xl-center col-md-1" style="text-align: center;"><a href="login.php">
+            <div class="col d-flex justify-content-center align-items-center justify-content-sm-center justify-content-xl-center col-md-1" style="text-align: center;"><a class="d-sm-flex align-items-sm-center" href="login.php">
                     <ul class="list-unstyled">
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 47px;color: var(--color-black);">
                                 <path d="M15.4857 20H19.4857C20.5903 20 21.4857 19.1046 21.4857 18V6C21.4857 4.89543 20.5903 4 19.4857 4H15.4857V6H19.4857V18H15.4857V20Z" fill="currentColor"></path>
@@ -61,7 +61,7 @@
                         <li style="color: var(--color-black);">ACCEDER</li>
                     </ul>
                 </a></div>
-            <div class="col d-flex flex-grow-0 justify-content-center justify-content-xl-center col-md-1"><a class="d-sm-flex justify-content-sm-center align-items-sm-center" href="carrito.php"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 68px;color: var(--color-black);">
+            <div class="col d-flex flex-grow-0 justify-content-center align-items-center align-items-sm-center justify-content-xl-center col-md-1"><a href="carrito.php"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="d-xl-flex justify-content-xl-center align-items-xl-center" style="font-size: 60px;color: var(--color-black);">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.79166 2H1V4H4.2184L6.9872 16.6776H7V17H20V16.7519L22.1932 7.09095L22.5308 6H6.6552L6.08485 3.38852L5.79166 2ZM19.9869 8H7.092L8.62081 15H18.3978L19.9869 8Z" fill="currentColor"></path>
                         <path d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z" fill="currentColor"></path>
                         <path d="M19 20C19 21.1046 18.1046 22 17 22C15.8954 22 15 21.1046 15 20C15 18.8954 15.8954 18 17 18C18.1046 18 19 18.8954 19 20Z" fill="currentColor"></path>
@@ -79,58 +79,35 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" style="width: 100%;margin-bottom: 5%;">
+    <div class="container-fluid text-center" style="height: 5%;width: 100%;margin: auto;margin-bottom: 10%;margin-top: 1%;">
         <div class="row text-center d-inline float-start justify-content-center align-items-center justify-content-xxl-center align-items-xxl-start" style="text-align: center;margin: auto;margin-top: 1%;width: 100%;">
-            <div class="col">
+            <div class="col" style="width: 100%;">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="home.php"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
-                    <li class="breadcrumb-item"><a href="#"><span class="text-uppercase" style="color: var(--color-white);">Mi carretilla</span></a></li>
+                    <li class="breadcrumb-item"><a href="#"><span class="text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;INICIO</span></a></li>
+                    <li class="breadcrumb-item"><a href="#"><span style="color: var(--color-white);">CENTRO DE AYUDA</span></a></li>
                 </ol>
             </div>
         </div>
-        <div class="row" style="margin-bottom: 11%;">
-            <div class="col text-start d-inline float-start d-sm-flex d-xxl-flex align-items-start justify-content-sm-start align-items-sm-center justify-content-xxl-start align-items-xxl-center col-sm-12 col-md-8"><img style="width: 20%;" src="assets/img/iphone.png">
-                <ul class="list-unstyled text-light" style="width: 50%;">
-                    <li class="text-start" style="font-size: 20px;">IPHONE 13 PROMAX 256GB, COLOR GRAFITTO, GARANTÍA DE 2 AÑOS, MODELOMLLE3LZ/A</li>
-                    <li style="margin-top: 10px;color: var(--bs-blue);font-size: 20px;">$1239.67</li>
-                </ul><input type="number" class="form-control" style="width: 10%;font-size: 20px;"><i class="icon ion-ios-refresh-empty" style="width: 10%;font-size: 50px;color: var(--color-white);text-align: center;"></i><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-trash" style="width: 10%;font-size: 50px;color: var(--color-white);text-align: center;">
-                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
-                    <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
-                </svg>
+        <div class="row" style="width: 100%;margin: auto;">
+            <div class="col col-md-6">
+                <p class="text-start text-light">¿Cuánto tiempo tarda la entrega a domicilio?</p>
+                <p class="fw-light text-start text-light" style="padding: 0;margin: 0;transform: scale(1);">El tiempo varía dependiendo la zona de entrega, el tiempo exacto para cada caso va detallado al momento de realizar la compra</p>
+                <p class="text-light" style="text-align: left;">¿Cuáles son los métodos de pago anticipado?<br></p>
+                <p class="fw-light text-light" style="text-align: left;padding: 0;">Actualmente contamos con PayPal como nuestro único método de pagp.</p>
+                <p class="text-light" style="text-align: left;">¿Hacen envíos a todo el mundo?<br></p>
+                <p class="fw-light text-light" style="text-align: left;">Por el momento solamente contamos con envíos dentro del país, pero esperamos expandirnos pronto</p>
+                <p class="text-start text-light">¿Necesito estar registrado para comprar?<br></p>
+                <p class="fw-light text-start text-light">Sí, debes registrarte para poder hacer las compras en nuestro sitio</p>
+                <p class="text-start text-light">¿Cómo puedo aplicar a una plaza de trabajo con ustedes?<br></p>
+                <p class="fw-light text-start text-light">En nuestras redes sociales publicamos cuando tenemos plazas disponibles, mantente al día para más infortmación</p>
             </div>
-            <div class="col text-start d-xxl-flex align-items-xxl-center col-sm-12 col-md-4">
-                <aside style="width: 80%;margin: auto;background: var(--color-white);border-width: 0px;border-radius: 7px;">
-                    <p class="text-center" style="color: var(--color-black);width: 100%;">RESUMEN</p>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Cálculos</th>
-                                    <th>Suma</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Subtotal</td>
-                                    <td>$1239.67</td>
-                                </tr>
-                                <tr>
-                                    <td>Envío</td>
-                                    <td>$15</td>
-                                </tr>
-                                <tr>
-                                    <td>Total</td>
-                                    <td>$1254.67</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div><a href="opciones_entrega.php"><button class="btn btn-primary btn-lg text-center d-xxl-flex align-items-xxl-center" type="button" style="margin: auto;background: linear-gradient(var(--bs-gray-800), var(--color-text-grey)), var(--color-grey);border-style: none;margin-bottom: 10px;">Proceder a pagar</button></a>
-                </aside>
+            <div class="col col-md-6">
+                <h1 class="text-light" style="font-size: 30px;">¿Cómo podemos ayudarte?<br></h1><img class="rounded-circle img-fluid" src="assets/img/FAQ.png" width="50%">
             </div>
         </div>
     </div>
     <footer class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center fixed-bottom" style="background: #2B2D32;height: 10%;">
-        <p class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></p>
+        <small class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

@@ -58,10 +58,10 @@
                                 <path d="M15.4857 20H19.4857C20.5903 20 21.4857 19.1046 21.4857 18V6C21.4857 4.89543 20.5903 4 19.4857 4H15.4857V6H19.4857V18H15.4857V20Z" fill="currentColor"></path>
                                 <path d="M10.1582 17.385L8.73801 15.9768L12.6572 12.0242L3.51428 12.0242C2.96199 12.0242 2.51428 11.5765 2.51428 11.0242C2.51429 10.4719 2.962 10.0242 3.51429 10.0242L12.6765 10.0242L8.69599 6.0774L10.1042 4.6572L16.4951 10.9941L10.1582 17.385Z" fill="currentColor"></path>
                             </svg></li>
-                        <li class="d-sm-flex justify-content-sm-center align-items-sm-center" style="color: var(--color-black);">ACCEDER</li>
+                        <li style="color: var(--color-black);">ACCEDER</li>
                     </ul>
                 </a></div>
-            <div class="col d-flex flex-grow-0 justify-content-center align-items-sm-center justify-content-xl-center col-md-1"><a href="carrito.php"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 68px;color: var(--color-black);">
+            <div class="col d-flex flex-grow-0 justify-content-center justify-content-xl-center col-md-1"><a class="d-sm-flex justify-content-sm-center align-items-sm-center" href="carrito.php"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 68px;color: var(--color-black);">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.79166 2H1V4H4.2184L6.9872 16.6776H7V17H20V16.7519L22.1932 7.09095L22.5308 6H6.6552L6.08485 3.38852L5.79166 2ZM19.9869 8H7.092L8.62081 15H18.3978L19.9869 8Z" fill="currentColor"></path>
                         <path d="M10 22C11.1046 22 12 21.1046 12 20C12 18.8954 11.1046 18 10 18C8.89543 18 8 18.8954 8 20C8 21.1046 8.89543 22 10 22Z" fill="currentColor"></path>
                         <path d="M19 20C19 21.1046 18.1046 22 17 22C15.8954 22 15 21.1046 15 20C15 18.8954 15.8954 18 17 18C18.1046 18 19 18.8954 19 20Z" fill="currentColor"></path>
@@ -84,32 +84,26 @@
             <div class="col">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#"><span class="text-uppercase text-center d-flex justify-content-xxl-center" style="margin: auto;color: var(--color-white);"><i class="la la-home d-flex float-start d-xxl-flex align-items-center justify-content-xxl-center" style="font-size: 20px;color: var(--color-white);"></i>&nbsp;Inicio</span></a></li>
-                    <li class="breadcrumb-item"><a href="#"><span class="text-uppercase" style="color: var(--color-white);">Nosotros</span></a></li>
+                    <li class="breadcrumb-item"><a href="login.php"><span class="text-uppercase" style="color: var(--color-white);">Iniciar sesion</span></a></li>
                 </ol>
             </div>
         </div>
-        <div class="row" style="width: 100%;margin: auto;">
-            <div class="col col-md-12">
-                <h1 class="text-center text-light" style="font-size: 25px;">EXPERTOS EN TECNOLOGÍA</h1>
-                <h1 class="text-light" style="font-size: 30px;width: 85%;margin-left: 8%;">¿Quiénes somos?<br></h1>
-                <p class="fw-bold text-light" style="text-align: center;width: 85%;margin: auto;">Innova+,somos una compañía especializada en servicios de Tecnología e Innovación. Ayudamos a las empresas y a las personas a concienciarse sobre la importancia de la necesidad de la transformación tecnológica digital: eficiencia y mejora de procesos, digitalización, multicanalidad, identificación indicadores clave negocio, uso recursos cloud, seguridad de la información, consolidación de datos y accesibilidad remota. Aportamos valor a nuestros clientes poniendo a su disposición nuestro experiencia y conocimiento, a los que sumamos un conjunto<br>de servicios y soluciones tecnológicas que nos hace diferentes.</p>
-                <p class="text-truncate text-light" style="text-align: center;margin: auto;width: 85%;margin-top: 2%;">Nuestro equipo es nuestro principal activo. Muchos años de experiencia e investigación nos avalan, siendo parte del equipo personas que estuvimos implicadas y dedicadas al lanzamiento de un banco en Honduras, proyecto que nos dio la visión necesaria para saber que los sistemas de información y las plataformas tecnológicas que los soportan han de ir alineados con las necesidades y estrategia<br>de las direcciones empresariales. Estos conocimientos fueran asumidos y aprendidos para que hoy podamos hacerlos extensivos a las compañías con las que<br>trabajamos.</p>
+        <div class="row" style="width: 80%;margin: auto;border-radius: 10px;background: linear-gradient(#3940533B 0%, #696E7A70 0%, rgba(105,110,122,0.4392156862745098) 96%);margin-bottom: 20%;">
+            <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6" style="border-right: 1px solid var(--color-grey) ;">
+                <p class="text-light" style="margin-left: 10%;">Iniciar Sesión</p>
+                <p class="text-light" style="font-size: 11px;margin-top: -19px;margin-left: 10%;">Inicia sesión con tu usuario y contraseña</p><input type="text" class="form-control-lg" style="width: 70%;margin-left: 10%;background: linear-gradient(var(--color-text-grey) 0%, rgba(118,129,139,0.760498366013072) 44%, rgba(105,110,122,0.4392156862745098) 80%);color: var(--color-white);border-style: none;border-right-style: none;" placeholder="Usuario" autocomplete="on" required=""><input type="password" class="form-control-lg" style="width: 70%;margin-top: 10px;margin-left: 10%;background: linear-gradient(var(--color-text-grey) 0%, rgba(118,129,139,0.760498366013072) 44%, rgba(105,110,122,0.4392156862745098) 80%);color: var(--color-white);border-style: none;border-right-style: none;" placeholder="Contraseña" required="" autocomplete="off">
+                <div class="d-flex justify-content-xxl-start align-items-xxl-center" style="text-align: center;margin-left: 10%;">
+                    <div class="form-check" style="margin-top: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1" style="color: var(--color-white);">Recordar</label></div><a class="text-light" href="#" style="margin-left: 64px;">Contraseña Olvidada</a>
+                </div><button class="btn btn-primary" type="button" style="width: 50%;border-radius: 8px;margin-top: 5%;margin-left: 10%;font-size: 20px;margin-bottom: 5%;">Inciar Sesión</button>
             </div>
-        </div>
-        <div class="row" style="width: 100%;margin: auto;">
-            <div class="col col-md-12 text-light">
-                <h1 style="font-size: 30px;width: 85%;margin-left: 8%;">Partners</h1>
+            <div class="col text-start col-xs-12 col-sm-12 col-md-12 col-lg-6" style="padding-left: 10%;">
+                <p class="text-light">Registrate</p>
+                <p class="text-light" style="font-size: 11px;margin-top: -19px;">Pago fácil y rápido. Acceso a tu historial. Estado de órdenes</p><a href="registrarse.php"><button class="btn btn-primary" type="button" style="width: 50%;font-size: 20px;margin-top: 11px;border-right-color: var(--color-blue);margin-bottom: 5%;">Registrarse</button></a>
             </div>
-        </div>
-        <div class="row" style="width: 100%;margin: auto;height: 13%;">
-            <div class="col col-md-3 col-sm-12" style="text-align: center;"><img src="assets/img/dell.png" style="width: 80%;border-radius: 15px;margin: auto;height: 100%;"></div>
-            <div class="col col-md-3 col-sm-12" style="text-align: center;"><img src="assets/img/amazon_aws.jpg" style="width: 80%;border-radius: 15px;height: 100%;"></div>
-            <div class="col col-md-3 col-sm-12" style="text-align: center;"><img src="assets/img/azure.png" style="width: 85%;height: 100%;border-radius: 15px;"></div>
-            <div class="col col-md-3 col-sm-12" style="text-align: center;"><img src="assets/img/redhat.png" style="width: 85%;height: 100%;border-radius: 15px;"></div>
         </div>
     </div>
     <footer class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center fixed-bottom" style="background: #2B2D32;height: 10%;">
-        <p class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></p>
+        <small class="text-light" style="font-size: 17px;margin-bottom: 5px;"><strong><span style="color: rgb(255, 255, 255);">Copyright © 2022 Innova+ El Salvador. Todos los derechos reservados</span></strong><br></small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
